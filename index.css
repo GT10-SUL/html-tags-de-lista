@@ -57,11 +57,29 @@ body{
         margin-bottom: 16px;
     }
 
-    ul{
+    ul, ol{
         padding-left: 20px;
         li{
             margin-bottom: 10px;
+            color: #854632;
+            span{
+                color: black;
+            }
         }
     }
+
+    table{
+        margin-top: 10px;
+        width: 100%;
+        border-collapse: collapse;
+        tr{
+            td{
+                width: 50%;
+                height: 50px;
+                border-bottom: 1px solid #DDDDDD;
+            }
+        }
+    }
+    
 }
 
